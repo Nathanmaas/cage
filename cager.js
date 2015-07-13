@@ -29,13 +29,6 @@ var gif = [
 "images/nick10.gif",
 ];
 
-// $(gif).each(function(){
-// 	var cagegif = $('<img />').attr('src', this);
-// });
-
-// function mix(max, min){
-// 	return Math.round(Math.random() * (max - min) + min);
-// }
 
 function shuffle(){
 	gif.sort(function(a, b){
@@ -45,26 +38,6 @@ function shuffle(){
 }
 shuffle();
 
-	// var gifs = $(board).children();
-	// var thisGif = $(board + " div:first-child");
-	// var gifArray = new Array();
-
-	// for(var i = 0; i < gifs.length; i++){
-	// 	gifArray[i] = $("#" + thisGif.attr("id") + " img").attr("src");
-	// 	thisGif = thisGif.next();
-	// }
-
-	// thisGif = $(board + " div:first-child");
-
-	// for(var i = 0; i < gifs.length; i++){
-	// 	var run = mix(0, gifArray.length -1);
-
-	// 	$("#" + agif.attr("id") + " img").attr("src", gifArray[run]);
-	// 	gifArray.splice(run, 1)
-	// 	thisGif = thisGif.next();
-	// 	}
-	// console.log(gifArray);
-	
 $(board).on('click', '.gif', function(){
 	var relate = parseInt($(this).attr("id").replace("c", "")) -1;
 
@@ -83,9 +56,8 @@ $(board).on('click', '.gif', function(){
  	clickSave = false;
  	shuffle();
  	$('.gif').show().css("background-image", "url(./images/spade_card.jpeg)");
-
- })
-
+ 	
+ 	})
 });
 
 
