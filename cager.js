@@ -1,10 +1,5 @@
 $(function(){
-// var cageArray = ['c1','c2','c3','c4','c5','c6','c7','c8','c9','c10','c11','c12','c13','c14','c15','c16','c17','c18','c19','c20']'c16'];
 var board = $("#cards")
-var spadeOpen = "";
-var gifOpen = "";
-var counter = 0;
-var gifFlip = 0;
 var clickSave = false;
 var gif = [   
 "images/nick1.gif",
@@ -29,12 +24,10 @@ var gif = [
 "images/nick10.gif",
 ];
 
-
 function shuffle(){
 	gif.sort(function(a, b){
 		return Math.random() - 0.5;
-	})
-
+	});
 }
 shuffle();
 
@@ -56,7 +49,7 @@ $(board).on('click', '.gif', function(){
  	clickSave = false;
  	shuffle();
  	$('.gif').show().css("background-image", "url(./images/spade_card.jpeg)");
- 	
+
  	})
 });
 
