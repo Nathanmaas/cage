@@ -45,6 +45,7 @@ function shuffle(){
 		gifArray.splice(run, 1)
 		thisGif = thisGif.next();
 		}
+		return shuffle();
 	}
 });
 
