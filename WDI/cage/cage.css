@@ -1,0 +1,57 @@
+body{
+	background-color: #CAF2E5;
+}
+ body, a, a:hover { cursor:url(http://media.tumblr.com/255ebd97998b716b26e90f728da65f55/tumblr_inline_mpr5y14fge1r6qyth.png), auto 
+}
+
+#title{
+	font-size: 100px;
+	color: #EB5D3E;
+	font-family: cabin;
+	text-align: center;
+
+}
+#subtitle{
+	font-size: 40px;
+	color:#EB5D3E;
+	font-family: cabin;
+	text-align: center;
+
+}
+#gameboard{
+	background: #3CF2AC;
+	border: 1000 2px solid;
+	width: 800px;
+	height:1010px;
+	padding-top: 0px;
+	margin: 0 auto;
+}
+.gameboard{
+	background: url(spade_card.jpg) no-repear;
+	border:#000 1px solid;
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin: 10px;
+	padding:;
+	cursor:;
+}
+#remain{
+	font-size: 30px;
+	color:#EB5D3E;
+	font-family: cabin;
+	text-align: center;
+
+}
+.card{
+
+}
+.front{
+	height: 250px;
+	width: 200px;
+}
+.back{
+	height: 250px;
+	width: 200px;
+
+}
