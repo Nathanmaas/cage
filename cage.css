@@ -28,10 +28,14 @@ body, a, a:hover { cursor:url(http://media.tumblr.com/255ebd97998b716b26e90f728d
   	display: block;
 }
 
+#buttons .button:hover{
+	background: #s;
+}
+
+
 #cards{
 	margin: 10px 0 0;
 	z-index: 1;
-	/*display: inline;*/
 }
 
 #cards div{
