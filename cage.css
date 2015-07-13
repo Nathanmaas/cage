@@ -1,0 +1,55 @@
+body{
+	font-family: cabin;
+	background-image: url(images/cagebackground.jpg); 
+	background-size; cover;
+	background-color: rgba(300, 300, 300, .8);
+	background-blend-mode: color;
+	margin: 0 auto;
+	padding: 0;
+}
+
+body, a, a:hover { cursor:url(http://media.tumblr.com/255ebd97998b716b26e90f728da65f55/tumblr_inline_mpr5y14fge1r6qyth.png), auto 
+}
+#gamecontain{
+	margin: 0 auto;
+	width: 950px;
+}
+
+#title{
+	font-size: 100px;
+	font-color: #3CF2AC;
+}
+
+#buttons{
+	font-size: 50px;
+	color:#EB5D3E;
+	text-align: center;
+  	margin: 20px;
+  	display: block;
+}
+
+#cards{
+	margin: 10px 0 0;
+	z-index: 1;
+	/*display: inline;*/
+}
+
+#cards div{
+	background-image: url(images/spade_card.jpeg);
+	z-index: 2;
+	height: 210px;
+	width: 180px;
+	float: left;
+	margin: 5px;
+}
+
+#cards div img{
+	display: none;
+	z-index: 3;
+}
+
+
+
+
+
+
