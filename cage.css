@@ -1,6 +1,6 @@
 body{
 	font-family: cabin;
-	background-image: url(images/cagebackground.jpg); 
+	background-image: url(images/cagebackground.jpg);
 	background-size; cover;
 	background-color: rgba(300, 300, 300, .8);
 	background-blend-mode: color;
@@ -8,7 +8,43 @@ body{
 	padding: 0;
 }
 
-body, a, a:hover { cursor:url(http://media.tumblr.com/255ebd97998b716b26e90f728da65f55/tumblr_inline_mpr5y14fge1r6qyth.png), auto 
+body, a, a:hover { cursor:url(http://media.tumblr.com/255ebd97998b716b26e90f728da65f55/tumblr_inline_mpr5y14fge1r6qyth.png), auto
+}
+
+.modal{
+	background-image: url(images/cagebackground.jpg);
+	/*background-color: #EB7252;*/
+}
+.modal-content{
+	background-image: url(images/cagebackground.jpg);
+	background-color: rgba(300, 300, 300, .8);
+	background-blend-mode: color;
+	border-width: 2px;
+	border-color: #6AFFBB;
+}
+
+#modal1text{
+	text-align: center;
+	font-family: cabin;
+	font-color: #EB5D3E;
+}
+
+h3{
+	text-align: center;
+	font-family: cabin;
+	font-color: #EB5D3E;
+
+}
+
+.video{
+	margin-left: 90px;
+
+}
+
+button{
+	text-align: center;
+	margin-left: 250px;
+
 }
 
 #gamecontain{
